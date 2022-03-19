@@ -14,8 +14,12 @@
 
 var tweets = [
   "TGIF","Spring-2022", "Spring break begins", "friyay", "family weekend", "spring-sale", "end of season sale", "pray for Ukraine", "hackathon loading", "Break the Bias"];
-  console.log(typeof tweets);
 
+  for (var i = 0; i < tweets. length; i++) {
+console.log(tweets[i]);
+}
+
+/* 
 console.log(typeof tweets);
 console.log(typeof tweets[0]);
 console.log(tweets[1]);
@@ -26,9 +30,9 @@ console.log(tweets[5]);
 console.log(tweets[6]);
 console.log(tweets[7]);
 console.log(tweets[8]);
-console.log(tweets[9]);
+console.log(tweets[9]); */
 
-for (var i = 0; i )
+
 
   //solution to bonus 
   
@@ -52,17 +56,7 @@ for (var i = 0; i )
     console.log(twitterPost);
 
 //objects are collection of properties 
-console.log(typeof tweets);
-console.log(typeof tweets[0]);
-console.log(tweets[1]);
-console.log(tweets[2]);
-console.log(tweets[3]);
-console.log(tweets[4]);
-console.log(tweets[5]);
-console.log(tweets[6]);
-console.log(tweets[7]);
-console.log(tweets[8]);
-console.log(tweets[9]);
+
 
 
 var twitterPost = {
@@ -71,5 +65,5 @@ var twitterPost = {
   doc : "01-03-2022",
   userAge : "16",
 };
-console.log(twitterPost)
+console.log(twitterPost);
 
