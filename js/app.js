@@ -1,4 +1,4 @@
-// console.log('Hello world');
+/* // console.log('Hello world');
 
 //  var userAge = 18;
 //  var is_subscribed = true;
@@ -12,12 +12,12 @@
 //solution to the first part of assignment -10 tweets 
 
 
-/* var tweets = [
+ var tweets = [
   "TGIF","Spring-2022", "Spring break begins", "friyay", "family weekend", "spring-sale", "end of season sale", "pray for Ukraine", "hackathon loading", "Break the Bias"];
 
   for (var i = 0; i < tweets. length; i++) {
 console.log(tweets[i]);
-} */
+} 
 
 /* 
 console.log(typeof tweets);
@@ -37,8 +37,8 @@ console.log(tweets[9]); */
   //solution to bonus 
   
 //objects are collection of properties e.g spring, keyof functions helps to the know the type of object
-
-  /* var userName = [
+/* 
+  var userName = [
     "@jola", "@tina", "@dipo", "@paris", "@george", "@dan", "@yinka", "@esther", "@liz", "@israel"];
     console.log(typeof userName[1]);
 
@@ -53,23 +53,22 @@ console.log(tweets[9]); */
     console.log(typeof userAge[1]);
   
     var twitterPost = {};
-    console.log(twitterPost);
+    console.log(twitterPost); */
 
 //objects are collection of properties 
 
 
+//var twitterPost = {
+//   tweets :"TGIF",
+//   userName : "@jola",
+//   doc : "01-03-2022",
+//   userAge : "16",
+// };
+// console.log(twitterPost);
 
-var twitterPost = {
-  tweets :"TGIF",
-  userName : "@jola",
-  doc : "01-03-2022",
-  userAge : "16",
-};
-console.log(twitterPost);
-
- */
+ 
 //WK 9D 
-var Obj = {
+/* var Obj = {
   result: 0,
   addNumber: function(a, b) {
     this.result = a + b;
@@ -92,3 +91,35 @@ console.log(sentence.startsWith('ph'));
 
 console.log(sentence.length > 10);
 
+
+//wk9e
+
+var twitterPost = {
+  tweets :"TGIF",
+  userName : "@jola",
+  created_at : "01-03-2022",
+  age : "16",
+}; */
+
+function userTweets(tweets = [
+  "TGIF","Spring-2022", "Spring break begins", "friyay", "family weekend", "spring-sale", "end of season sale", "pray for Ukraine", "hackathon loading", "Break the Bias"]) {
+  console.log(tweets)
+}
+
+userTweets();
+
+var userTweets = {
+  tweets :"TGIF",
+  userName : "@jola",
+  created_at : "01-03-2022",
+  age : "16",
+}; 
+console.log(userTweets.age >= 18);
+
+const age = [
+    "16", "16", "18", "17", "19", "16", "18", "16", "17", "18"];
+
+   const filtered = age.filter(function(value) {
+      return value >= 18;});
+
+    console.log(filtered);
