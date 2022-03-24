@@ -101,7 +101,7 @@ var twitterPost = {
   age : "16",
 }; */
 
-function userTweets(tweets = [
+/* function userTweets(tweets = [
   "TGIF","Spring-2022", "Spring break begins", "friyay", "family weekend", "spring-sale", "end of season sale", "pray for Ukraine", "hackathon loading", "Break the Bias"]) {
   console.log(tweets)
 }
@@ -122,4 +122,30 @@ const age = [
    const filtered = age.filter(function(value) {
       return value >= 18;});
 
-    console.log(filtered);
+    console.log(filtered); */
+
+
+    //wk10a//
+
+    const pageTitle =document.querySelector("h2");
+    console.log(pageTitle);
+
+    const boxes= document.querySelectorAll(".box");
+    console.log(boxes);
+
+  const P = document.getElementById("ThirdP").innerHTML
+console.log(P);
+
+const p = document.getElementsByTagName("p")
+
+console.log(p);
+
+let newElement = document.createElement('div');
+
+console.log(newElement);
+
+const h1 = document.querySelector('h1')
+h1.classList
+  
+
+
