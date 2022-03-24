@@ -12,12 +12,12 @@
 //solution to the first part of assignment -10 tweets 
 
 
-var tweets = [
+/* var tweets = [
   "TGIF","Spring-2022", "Spring break begins", "friyay", "family weekend", "spring-sale", "end of season sale", "pray for Ukraine", "hackathon loading", "Break the Bias"];
 
   for (var i = 0; i < tweets. length; i++) {
 console.log(tweets[i]);
-}
+} */
 
 /* 
 console.log(typeof tweets);
@@ -38,7 +38,7 @@ console.log(tweets[9]); */
   
 //objects are collection of properties e.g spring, keyof functions helps to the know the type of object
 
-  var userName = [
+  /* var userName = [
     "@jola", "@tina", "@dipo", "@paris", "@george", "@dan", "@yinka", "@esther", "@liz", "@israel"];
     console.log(typeof userName[1]);
 
@@ -66,4 +66,29 @@ var twitterPost = {
   userAge : "16",
 };
 console.log(twitterPost);
+
+ */
+//WK 9D 
+var Obj = {
+  result: 0,
+  addNumber: function(a, b) {
+    this.result = a + b;
+    return this;
+  },
+
+  multiplyNumber: function(a) {
+    this.result = this.result * a;
+    return this;
+  },}
+  Obj.addNumber(5, 2).multiplyNumber(5)
+
+  console.log(Obj.addNumber(5, 2).multiplyNumber(5));
+
+
+
+let sentence = "How are you today?";
+
+console.log(sentence.startsWith('ph'));
+
+console.log(sentence.length > 10);
 
